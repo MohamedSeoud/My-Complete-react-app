@@ -8,10 +8,6 @@ const NewExpense = (props) => {
         props.newExpenseSumbmitted(event)
     }
 
-
-
-
-
   return (
     <div className='new-expense'>
       <ExpenseForm ExpenseSubmitted={newExpenseSumbmitted}/>

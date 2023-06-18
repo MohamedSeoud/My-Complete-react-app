@@ -30,7 +30,7 @@ const ExpenseForm = (props) => {
         id : Math.random(),
         title : enteredData.title,
         amount : enteredData.amount,
-        date : enteredData.date
+        date : new Date (enteredData.date)
     }
     props.ExpenseSubmitted(expenseData);
     setEnteredData(

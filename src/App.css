@@ -12,3 +12,17 @@ body {
   margin: 0;
   background-color: #3f3f3f;
 }
+
+.__control {
+  display:table;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.label {
+  font-weight: bold;
+  color: azure;
+  text-align: center;
+}
